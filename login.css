@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+}
+
+#login-container {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Aumentado el espacio entre elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    /* Aumentado el espacio entre el título y el formulario */
+    font-size: 28px;
+    /* Aumentado el tamaño de la fuente del título */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    margin: 10px 0;
+    /* Aumentado el espacio alrededor de los campos de entrada */
+    padding: 15px;
+    /* Aumentado el tamaño del relleno */
+    border-radius: 8px;
+    /* Aumentado el radio de borde */
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    /* Aumentado el tamaño de la fuente */
+}
+
+input[type="submit"] {
+    background-color: #61dafb;
+    color: #282c34;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a6e5;
+}
+
+label {
+    margin-bottom: 10px;
+    /* Aumentado el espacio alrededor de las etiquetas */
+    display: block;
+    font-size: 20px;
+    /* Aumentado el tamaño de la fuente de las etiquetas */
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+    /* Aumentado el espacio superior del mensaje de error */
+    font-size: 18px;
+    /* Aumentado el tamaño de la fuente del mensaje de error */
+}
